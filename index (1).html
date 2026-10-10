@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo — Petrolog AI</title>
+<meta name="description" content="Petrolog AI demo-videosi, uning tavsifi va ishlaydigan prototipni yuklab olish havolalari.">
+<meta name="theme-color" content="#18222d">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip" href="#asosiy">Asosiy matnga o‘tish</a>
+
+<header class="topbar">
+  <div class="in">
+    <a class="brand" href="../" aria-label="Petrolog AI, bosh sahifa">
+      <img src="../assets/favicon.svg" alt="" width="26" height="26"> Petrolog AI
+    </a>
+    <nav class="nav" aria-label="Bo‘limlar">
+      <a href="../#muammo">Muammo va yechim</a>
+      <a href="../#jamoa">Jamoa</a>
+      <a href="../#yol-xaritasi">Yo‘l xaritasi</a>
+      <a href="../#reja">Amalga oshirish</a>
+      <a href="./" aria-current="page">Demo</a>
+      <a href="../api/">API</a>
+    </nav>
+  </div>
+</header>
+
+<main id="asosiy">
+
+<section class="hero" style="padding-bottom:0">
+  <div class="wrap">
+    <span class="req">Topshiriqning 6-bandi</span>
+    <h1>Demo</h1>
+    <p class="lead prose">Shlif mikrofotosuratidan tekshirib bo‘ladigan petrografik tavsifgacha va ICP-MS jadvalidan geokimyoviy diagrammalargacha — dasturning to‘liq ish sikli.</p>
+  </div>
+</section>
+
+<!-- 6.1 VIDEO -->
+<section class="block" id="video-blok" style="padding-top:2.5rem">
+  <div class="wrap">
+    <span class="req">6.1. Demo-video</span>
+    <h2>Video<span data-hide-wrap> (<span data-text="videoLength"></span>)</span></h2>
+    <div class="video" id="video">
+      <div class="empty"><p>Video shu yerda joylashadi.<br><span class="small">assets/config.js faylida youtubeId ni kiriting.</span></p></div>
+    </div>
+    <p class="small muted" data-hide-wrap><a data-link="youtube" href="#">Videoni YouTube’da ochish</a></p>
+
+    <h3>Videoning tarkibi</h3>
+    <ol class="chapters">
+      <li><time>0:00</time><span>Muammo: qo‘lda yozilgan tavsif va uning kamchiliklari</span></li>
+      <li><time>0:20</time><span>Dastur internet uzilgan holda ishga tushiriladi</span></li>
+      <li><time>0:35</time><span>Shlif: ikki nikoldagi tasvir, masshtab, fazalar, don bo‘yicha aniqlash</span></li>
+      <li><time>1:10</time><span>Tavsif matnidagi dalil holatlari va ishonch darajasi</span></li>
+      <li><time>1:30</time><span>Anshlif: ma’danli minerallar</span></li>
+      <li><time>1:50</time><span>ICP-MS: REE spektri, spider diagramma, klark koeffitsienti, korrelyatsiya</span></li>
+      <li><time>2:25</time><span>Silikat diagrammalari va Word/Excel eksporti</span></li>
+      <li><time>2:45</time><span>Avtomatik testlar va ochiq kod</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 6.2 TAVSIF -->
+<section class="block" id="tavsif">
+  <div class="wrap prose">
+    <span class="req">6.2. Demo-videoning tavsifi</span>
+    <h2>Videoda nima ko‘rsatilgan</h2>
+    <p>Video Windows ilovasida, internet uzilgan holda yozilgan — butun jarayon foydalanuvchi kompyuterida bajariladi va ma’lumot hech qayerga yuborilmaydi.</p>
+    <p><b>Shlif.</b> Bitta ko‘rish maydonining ikkita mikrofotosurati yuklanadi: parallel va kesishgan nikolda. Dastur nikol turini o‘zi aniqlaydi, rasmdagi masshtab yozuvini o‘qiydi va tasvirni fazalarga ajratadi. Keyin mineral kaliti har bir donaga alohida qo‘llanadi va modal tarkib xatoligi bilan hisoblanadi.</p>
+    <p><b>Dalilli tavsif.</b> Tuzilgan matnda har bir jumla yonida uning holati va dalil turi turadi: belgi o‘lchandimi, kuzatildimi yoki talqin qilindimi. Faqat bitta belgi bo‘lgan joyda dastur nom bermaydi va «aniqlab bo‘lmaydi» deb yozadi.</p>
+    <p><b>Anshlif.</b> Qaytgan yorug‘likdagi tasvirda ma’danli minerallar qaytarish qobiliyati va anizotropiya bo‘yicha, kadr ichidagi etalon minerallarga nisbatan baholanadi.</p>
+    <p><b>Geokimyo.</b> ICP-MS jadvali yuklanadi va xondritga normallashtirilgan REE spektri, ko‘p elementli spider diagramma, klark koeffitsientlari, clr o‘zgartirishdan keyingi korrelyatsiya matritsasi va statistik anomaliya chegaralari quriladi. Silikat tahlilida TAS, SiO₂–K₂O, A/NK–A/CNK va AFM diagrammalari namuna raqamlari bilan chiziladi; jadvallar Word va Excel formatida saqlanadi.</p>
+    <p><b>Tekshiruv.</b> Oxirida 665 ta avtomatik testning ishga tushirilishi va ochiq kod ko‘rsatiladi.</p>
+  </div>
+</section>
+
+<!-- Skrinshotlar (config.js da bo‘lsa ko‘rinadi) -->
+<section class="block" data-hide-wrap>
+  <div class="wrap">
+    <h2>Ekran rasmlari</h2>
+    <div class="gallery" id="gallery"></div>
+  </div>
+</section>
+
+<!-- 6.3 PROTOTIP -->
+<section class="block" id="prototip">
+  <div class="wrap">
+    <span class="req">6.3. Ishlayotgan prototip</span>
+    <h2>Prototipni sinab ko‘ring</h2>
+    <div class="downloads">
+      <article class="dl">
+        <span class="status ok">Mavjud</span>
+        <h3>Windows ilovasi</h3>
+        <p>To‘liq ishlaydigan versiya. Internet talab qilmaydi. Sinab ko‘rish uchun namuna fayllar <code>namunalar</code> papkasida.</p>
+        <p class="small">Windows 10/11, 64-bit. Hajmi: <span data-text="releaseSize"></span>.</p>
+        <a class="btn primary" data-link="releases" href="#">Yuklab olish</a>
+      </article>
+      <article class="dl">
+        <span class="status ok">Mavjud</span>
+        <h3>Dastur kodi</h3>
+        <p>To‘liq manba kodi, bilim bazasi va 665 ta avtomatik test. Litsenziya: AGPL-3.0 (kod), CC BY 4.0 (bilim bazasi).</p>
+        <a class="btn" data-link="repo" href="#">GitHub’da ochish</a>
+      </article>
+      <article class="dl">
+        <div data-show-if="live" hidden>
+          <span class="status ok">Mavjud</span>
+          <h3>Onlayn versiya</h3>
+          <p>Brauzerda ishlaydigan versiya. Ro‘yxatdan o‘tish talab qilinadi.</p>
+          <a class="btn" data-link="live" href="#">Ochish</a>
+        </div>
+        <div data-show-unless="live">
+          <span class="status part">Tayyorlanmoqda</span>
+          <h3>Onlayn versiya</h3>
+          <p>Kodda server rejimi (ro‘yxatdan o‘tish, email tasdiqlash, urinishlar cheklovi) va server sozlamalari tayyor. Serverga joylash — yo‘l xaritasining «Launched» bosqichida.</p>
+        </div>
+      </article>
+    </div>
+
+    <h3>Ishga tushirish</h3>
+    <ol class="plain prose">
+      <li>«Yuklab olish» tugmasi orqali ZIP faylni yuklab oling va istalgan papkaga oching.</li>
+      <li>Papka ichidagi <code>Petrolog.exe</code> faylini ishga tushiring.</li>
+      <li>Windows «noma’lum nashriyotchi» haqida ogohlantirsa: «Batafsil» → «Baribir ishga tushirish». Dastur hozircha raqamli imzosiz tarqatiladi.</li>
+      <li>Ilova oynasida tahlil turini tanlang va <code>namunalar</code> papkasidagi fayllardan birini yuklang.</li>
+    </ol>
+    <p class="small muted prose">Ilova Microsoft Edge WebView2 komponentidan foydalanadi: Windows 11 da u o‘rnatilgan, Windows 10 da odatda Edge bilan birga keladi.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap in">
+    <div>
+      <p><b>Petrolog AI</b> — H.M. Abdullayev nomidagi Geologiya va geofizika instituti doktoranti loyihasi.</p>
+      <p>Kod: AGPL-3.0-or-later. Bilim bazasi va hujjatlar: CC BY 4.0.</p>
+    </div>
+    <div>
+      <p>Pitch Day 3.0 uchun tayyorlangan. Yangilangan: <span data-text="updated"></span></p>
+      <p><a href="../">Bosh sahifa</a>&ensp; <a href="../api/">API</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/config.js"></script>
+<script src="../assets/site.js"></script>
+</body>
+</html>

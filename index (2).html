@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Petrolog AI — tekshirib bo‘ladigan petrografik tavsif</title>
+<meta name="description" content="Petrolog AI shlif, anshlif, silikat va ICP-MS tahlillarini bitta tizimda qayta ishlaydi. Har bir xulosa yonida uning dalili va ishonch darajasi turadi. Internetsiz ishlaydi.">
+<meta property="og:title" content="Petrolog AI — tekshirib bo‘ladigan petrografik tavsif">
+<meta property="og:description" content="Shlif, anshlif va geokimyo bitta tizimda. Har bir xulosa yonida uning dalili. Internetsiz ishlaydi.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#18222d">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#asosiy">Asosiy matnga o‘tish</a>
+
+<header class="topbar">
+  <div class="in">
+    <a class="brand" href="./" aria-label="Petrolog AI, bosh sahifa">
+      <img src="assets/favicon.svg" alt="" width="26" height="26"> Petrolog AI
+    </a>
+    <nav class="nav" aria-label="Bo‘limlar">
+      <a href="#muammo">Muammo va yechim</a>
+      <a href="#jamoa">Jamoa</a>
+      <a href="#nega-biz">Nega aynan men</a>
+      <a href="#yol-xaritasi">Yo‘l xaritasi</a>
+      <a href="#reja">Amalga oshirish</a>
+      <a href="#chatbot-blok">Savol bering</a>
+      <a href="demo/">Demo</a>
+      <a href="api/">API</a>
+    </nav>
+  </div>
+</header>
+
+<main id="asosiy">
+
+<!-- ================= BOSH QISM ================= -->
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <h1>Har bir xulosaning yonida uning dalili turadi</h1>
+      <p class="lead">Petrolog AI — shlif, anshlif, silikat va ICP-MS tahlillarini bitta tizimda qayta ishlaydigan dastur. Tavsifdagi har bir jumla qaysi o‘lchov yoki kuzatuvga tayanganini va qanchalik ishonchli ekanini ko‘rsatadi. Dastur internetsiz, foydalanuvchi kompyuterida ishlaydi.</p>
+      <div class="actions">
+        <a class="btn primary" href="demo/">Demo-videoni ko‘rish</a>
+        <a class="btn" data-link="repo" href="#">Dastur kodi</a>
+      </div>
+      <ul class="facts">
+        <li>Bosqich: <strong>MVP</strong></li>
+        <li><strong>665</strong> ta avtomatik test</li>
+        <li><strong>601</strong> etalon namuna</li>
+        <li>Interfeys: o‘zbek, rus, ingliz</li>
+      </ul>
+    </div>
+    <div class="scope">
+      <figure>
+        <svg class="eyepiece" viewBox="0 0 440 440" role="img" aria-labelledby="ep-title ep-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="ep-title">Shlifning kesishgan nikoldagi ko‘rinishi</title>
+<desc id="ep-desc">Mikroskop ko‘rish maydonidagi mineral donalari. Uchta dona belgilangan: kvars (Qz), plagioklaz (Pl) va biotit (Bt). Pastda 0,5 mm masshtab chizig‘i.</desc>
+<defs>
+<clipPath id="fov"><circle cx="220" cy="220" r="206"/></clipPath>
+<pattern id="tw0" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(24)"><rect width="9" height="9" fill="#cdd0cc"/><rect width="4" height="9" fill="#868c90"/></pattern>
+<pattern id="tw1" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(71)"><rect width="8" height="8" fill="#d6d7d1"/><rect width="3.5" height="8" fill="#7d8387"/></pattern>
+<pattern id="tw2" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(128)"><rect width="10" height="10" fill="#bfc2bf"/><rect width="4.5" height="10" fill="#6f767b"/></pattern>
+</defs>
+<circle cx="220" cy="220" r="214" fill="#1b2129"/>
+<g clip-path="url(#fov)" stroke="#2a2f33" stroke-width="1.1" stroke-linejoin="round">
+<polygon points="262.2,411.2 283.1,455.4 337.2,441.6 347.2,398.4 280.9,383.5" fill="#a6a9a6"/>
+<polygon points="359.0,130.7 406.5,118.5 411.2,58.2 384.8,52.7 343.2,107.3" fill="url(#tw1)"/>
+<polygon points="178.1,450.1 153.7,477.6 109.3,442.1 128.8,391.5 164.2,400.5" fill="#5a7d4a"/>
+<polygon points="388.6,226.7 341.1,227.2 327.5,177.2 354.2,154.7 403.0,189.5" fill="#5a7d4a"/>
+<polygon points="142.7,107.8 124.9,74.1 82.6,59.2 61.1,71.7 61.8,130.5 101.4,154.5 110.3,154.3" fill="#cfd0c8"/>
+<polygon points="110.6,245.5 89.9,253.5 57.8,221.3 101.4,154.5 110.3,154.3 134.9,181.2" fill="url(#tw1)"/>
+<polygon points="287.1,250.9 261.4,284.2 224.9,275.2 211.3,233.4 233.4,204.6 261.6,201.6" fill="#2f5a6e"/>
+<polygon points="283.8,169.2 261.6,201.6 287.1,250.9 324.1,249.3 341.1,227.2 327.5,177.2" fill="#9b5a24"/>
+<polygon points="230.6,86.5 228.7,132.8 276.1,148.2 291.3,111.8 261.6,78.0" fill="#8f9497"/>
+<polygon points="261.6,78.0 277.6,39.6 317.3,51.8 325.0,99.6 291.3,111.8" fill="#7b8084"/>
+<polygon points="128.8,391.5 109.3,442.1 68.0,453.2 36.5,425.9 69.4,372.7 118.2,374.5" fill="#1d1f22"/>
+<polygon points="206.0,353.4 268.6,339.7 280.9,383.5 262.2,411.2 230.7,412.6 201.1,377.8" fill="#9a9e9c"/>
+<polygon points="268.6,339.7 275.2,327.1 344.7,321.5 360.0,387.0 347.2,398.4 280.9,383.5" fill="#cfd0c8"/>
+<polygon points="89.9,253.5 57.8,221.3 41.5,217.5 5.1,229.8 -3.3,242.8 1.7,302.0 14.5,316.6 40.0,319.0 82.8,287.1" fill="#b7bab4"/>
+<polygon points="201.1,377.8 164.2,400.5 178.1,450.1 211.0,448.3 230.7,412.6" fill="#3f6f78"/>
+<polygon points="152.8,254.3 110.6,245.5 89.9,253.5 82.8,287.1 135.4,329.1 175.7,313.9 177.3,308.9" fill="#b9772f"/>
+<polygon points="28.8,147.9 41.5,217.5 5.1,229.8 -28.8,177.1 1.0,142.4" fill="url(#tw0)"/>
+<polygon points="124.9,74.1 82.6,59.2 90.8,-5.1 154.2,-3.9 171.6,24.9" fill="url(#tw0)"/>
+<polygon points="433.0,174.9 431.9,137.7 406.5,118.5 359.0,130.7 354.2,154.7 403.0,189.5" fill="#a6a9a6"/>
+<polygon points="324.1,249.3 353.2,307.8 344.7,321.5 275.2,327.1 261.4,284.2 287.1,250.9" fill="#e6e3d6"/>
+<polygon points="355.7,25.5 351.1,-33.6 289.8,-6.0 275.7,35.5 277.6,39.6 317.3,51.8" fill="url(#tw2)"/>
+<polygon points="230.6,86.5 205.8,70.9 164.6,110.5 199.3,150.0 228.7,132.8" fill="#a6a9a6"/>
+<polygon points="196.3,34.0 171.6,24.9 154.2,-3.9 206.3,-142.9 236.4,-45.5 221.7,18.2" fill="#9a9e9c"/>
+<polygon points="276.1,148.2 283.8,169.2 327.5,177.2 354.2,154.7 359.0,130.7 343.2,107.3 325.0,99.6 291.3,111.8" fill="#9a9e9c"/>
+<polygon points="383.8,298.8 435.1,332.7 439.9,358.6 420.5,392.7 360.0,387.0 344.7,321.5 353.2,307.8" fill="#b9772f"/>
+<polygon points="36.5,425.9 69.4,372.7 40.0,319.0 14.5,316.6 -18.6,373.4 14.2,426.2" fill="#7c4a22"/>
+<polygon points="221.7,18.2 236.4,-45.5 289.8,-6.0 275.7,35.5" fill="#9a9e9c"/>
+<polygon points="230.6,86.5 205.8,70.9 196.3,34.0 221.7,18.2 275.7,35.5 277.6,39.6 261.6,78.0" fill="#2f5a6e"/>
+<polygon points="406.0,252.7 383.8,298.8 435.1,332.7 462.1,292.7 442.3,253.7" fill="#2f5a6e"/>
+<polygon points="228.7,132.8 199.3,150.0 196.8,161.9 233.4,204.6 261.6,201.6 283.8,169.2 276.1,148.2" fill="url(#tw2)"/>
+<polygon points="205.8,70.9 196.3,34.0 171.6,24.9 124.9,74.1 142.7,107.8 164.6,110.5" fill="#efe9cf"/>
+<polygon points="177.2,229.7 211.3,233.4 224.9,275.2 177.3,308.9 152.8,254.3" fill="#b7bab4"/>
+<polygon points="118.2,374.5 69.4,372.7 40.0,319.0 82.8,287.1 135.4,329.1" fill="#e6e3d6"/>
+<polygon points="177.2,229.7 162.5,185.5 196.8,161.9 233.4,204.6 211.3,233.4" fill="#efe9cf"/>
+<polygon points="473.1,111.2 435.4,47.3 411.2,58.2 406.5,118.5 431.9,137.7" fill="url(#tw0)"/>
+<polygon points="206.0,353.4 175.7,313.9 177.3,308.9 224.9,275.2 261.4,284.2 275.2,327.1 268.6,339.7" fill="#cfd0c8"/>
+<polygon points="177.2,229.7 162.5,185.5 134.9,181.2 110.6,245.5 152.8,254.3" fill="#b7bab4"/>
+<polygon points="206.0,353.4 175.7,313.9 135.4,329.1 118.2,374.5 128.8,391.5 164.2,400.5 201.1,377.8" fill="#8f9497"/>
+<polygon points="388.6,226.7 341.1,227.2 324.1,249.3 353.2,307.8 383.8,298.8 406.0,252.7" fill="#e6e3d6"/>
+<polygon points="343.2,107.3 384.8,52.7 355.7,25.5 317.3,51.8 325.0,99.6" fill="#2f5a6e"/>
+<polygon points="28.8,147.9 61.8,130.5 101.4,154.5 57.8,221.3 41.5,217.5" fill="#b9772f"/>
+<polygon points="28.8,147.9 61.8,130.5 61.1,71.7 11.8,58.4 -20.4,97.7 1.0,142.4" fill="#8f9497"/>
+<polygon points="439.1,178.7 433.0,174.9 403.0,189.5 388.6,226.7 406.0,252.7 442.3,253.7 467.0,222.9" fill="#9a9e9c"/>
+<polygon points="162.5,185.5 134.9,181.2 110.3,154.3 142.7,107.8 164.6,110.5 199.3,150.0 196.8,161.9" fill="url(#tw1)"/>
+<polygon points="230.7,412.6 211.0,448.3 257.3,506.4 283.1,455.4 262.2,411.2" fill="#9b5a24"/>
+</g>
+<g clip-path="url(#fov)" stroke="#f4f6f5" stroke-opacity=".45" stroke-width=".8">
+<line x1="220" y1="10" x2="220" y2="430"/><line x1="10" y1="220" x2="430" y2="220"/>
+</g>
+<g class="scalebar">
+<rect x="270" y="372" width="96" height="26" rx="3" fill="#1b2129" fill-opacity=".72"/>
+<line x1="280" y1="391" x2="356" y2="391" stroke="#f4f6f5" stroke-width="3"/>
+<text x="318" y="385" text-anchor="middle" fill="#f4f6f5" font-size="11">0,5 mm</text>
+</g>
+<g class="marks" font-size="12" font-weight="600" text-anchor="middle">
+<g><circle cx="188" cy="260" r="15" fill="#f4f6f5" stroke="#1b2129" stroke-width="2"/><text x="188" y="264.5" fill="#1b2129">Qz</text></g>
+<g><circle cx="158" cy="149" r="15" fill="#f4f6f5" stroke="#1b2129" stroke-width="2"/><text x="158" y="153.5" fill="#1b2129">Pl</text></g>
+<g><circle cx="304" cy="211" r="15" fill="#f4f6f5" stroke="#9e3a6c" stroke-width="2" stroke-dasharray="4 3"/><text x="304" y="215.5" fill="#1b2129">Bt</text></g>
+</g>
+</svg>
+        <figcaption>
+          <dl>
+            <dt>Qz</dt><dd>Kvars: past relyef, I tartib interferensiya rangi — <span class="ev m">o‘lchangan</span></dd>
+            <dt>Pl</dt><dd>Plagioklaz: polisintetik qo‘shaloqlar — <span class="ev o">kuzatilgan</span></dd>
+            <dt>Bt</dt><dd>Biotit?: faqat bitta belgi bor — <span class="ev n">aniqlab bo‘lmaydi</span></dd>
+          </dl>
+          <p class="small muted" style="margin-top:.6rem">Sxematik tasvir. Dastur bitta belgiga tayanib nom bermaydi.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 1. MUAMMO → YECHIM ================= -->
+<section class="block" id="muammo">
+  <div class="wrap">
+    <span class="req">Topshiriqning 1-bandi</span>
+    <h2>Muammo va yechim</h2>
+
+    <div class="split">
+      <div>
+        <h3>Muammo: shlif tavsifini tekshirib bo‘lmaydi</h3>
+        <ul class="plain">
+          <li><b>Subyektiv natija.</b> Bitta shlifni ikki petrograf tavsiflasa, ikki xil matn chiqadi: mineral ulushlari ko‘z bilan baholanadi, atamalar har kimda o‘zicha.</li>
+          <li><b>Xulosaning asosi ko‘rinmaydi.</b> «Bu granodiorit» degan jumla ortida qaysi o‘lchov turgani matndan bilinmaydi.</li>
+          <li><b>Vaqt.</b> Muallif tajribasida bitta shlifning to‘liq tavsifi 1–3 soat oladi; yuzlab namunali to‘plamda bu oylar demakdir.</li>
+          <li><b>Geokimyo alohida.</b> ICP-MS va silikat ma’lumotlari ko‘pincha jadvallarda qo‘lda ishlanadi: normallashtirish, koeffitsientlar va diagrammalar har safar qaytadan quriladi, xato tarqaladi.</li>
+          <li><b>Atama chalkashligi.</b> O‘zbekcha «struktura» inglizcha <i>texture</i> ga, «tekstura» esa <i>structure/fabric</i> ga mos keladi. Tarjimada ular o‘rin almashib qolsa, maqolada jiddiy xato paydo bo‘ladi.</li>
+          <li><b>Mahalliy talablar.</b> Mavjud vositalar O‘zbekiston Petrografik kodeksini (2024) va o‘zbek tilini qo‘llab-quvvatlamaydi.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Yechim: dalilga asoslangan tavsif</h3>
+        <p>Petrolog mikrofotosuratlar va tahlil jadvallaridan petrografik tavsif va geokimyoviy hisobot tuzadi. Har bir belgi uchun uning holati, dalil turi va ishonch darajasi yoziladi. Natija qayerdan kelganini ko‘rsatib turadigan, tekshirib bo‘ladigan matn.</p>
+        <p>Tavsif qatori shunday ko‘rinadi (soddalashtirilgan namuna):</p>
+        <div class="sample" aria-label="Tavsif namunasi">
+          <p>Jins porfirsimon strukturali <span class="ev o">kuzatilgan · 0,85</span>.</p>
+          <p>Fenokristallar plagioklazdan iborat, ulushi 18 ± 2,1 % <span class="ev m">o‘lchangan · 320 nuqta</span>.</p>
+          <p>Asosiy massadagi to‘q rangli mineral — biotit bo‘lishi mumkin <span class="ev n">aniqlab bo‘lmaydi · bitta belgi</span>.</p>
+        </div>
+        <p class="small muted">Ulush xatoligi binomial baholangan: σ = √(p(1−p)/n), p = 0,18, n = 320.</p>
+      </div>
+    </div>
+
+    <h3>Sakkizta tamoyil</h3>
+    <dl class="principles">
+      <div><dt>Dalil modeli</dt><dd>To‘rt holat (aniqlandi, kuzatilmadi, aniqlab bo‘lmaydi, tekshirilmadi) va uch dalil turi. Ishonch chegarasi: o‘lchangan 1,0, kuzatilgan 0,85, talqin 0,65. Xulosa uchun kamida ikkita mustaqil belgi kerak.</dd></div>
+      <div><dt>Don darajasida aniqlash</dt><dd>Rang bo‘yicha ajratilgan faza bir nechta mineral aralashmasi bo‘lishi mumkin. Shuning uchun mineral kaliti har bir donaga alohida qo‘llanadi.</dd></div>
+      <div><dt>Nisbiy optik shkalalar</dt><dd>Interferensiya tartibi, relyef va ma’dan yorqinligi kadr ichidagi etalon minerallarga nisbatan o‘lchanadi. Mikroskop sozlamasi har xil bo‘lsa ham natijalar taqqoslanadi.</dd></div>
+      <div><dt>Miqdoriy hisob</dt><dd>Delesse tamoyili va Glagolev–Chayes nuqtali hisobi (kamida 300 nuqta), binomial xatolik bilan. QAPF uchun qayta normallashtirish.</dd></div>
+      <div><dt>Xalqaro nomlash qoidalari</dt><dd>Le Maitre (2002), Schmid (1981), Dunham (1962), Fettes va Desmons (2007) hamda O‘zbekiston Petrografik kodeksi (2024).</dd></div>
+      <div><dt>Geokimyo shu tizimda</dt><dd>Aniqlash chegarasidan past qiymatlar, clr o‘zgartirish, Spearman korrelyatsiyasi va FDR tuzatishi, Ward klasterlashi, robast anomaliya chegaralari, REE va spider diagrammalar, klark koeffitsienti.</dd></div>
+      <div><dt>Internetsiz ishlash</dt><dd>Dastur tashqariga so‘rov yubormaydi. Institut ma’lumotlari kompyuterdan chiqmaydi.</dd></div>
+      <div><dt>Uch til</dt><dd>Interfeys o‘zbek, rus va ingliz tillarida. Tavsif matni hozircha o‘zbekcha, rus va ingliz shablonlari rejada.</dd></div>
+    </dl>
+
+    <h3>Mavjud vositalar bilan taqqoslash</h3>
+    <p class="prose">Har bir vazifa uchun yaxshi vositalar bor. Petrologning farqi — ularni dalil modeli ostida bitta ish jarayoniga birlashtirishi.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Vosita</th><th>Kuchli tomoni</th><th>Bu masala uchun yetishmaydigan qismi</th></tr></thead>
+        <tbody>
+          <tr><td>GCDkit (R muhiti, bepul)</td><td>Petrokimyoviy hisoblar va tasniflash diagrammalari, oflayn</td><td>Shlif va anshlif tahlili yo‘q; R bilishni talab qiladi; o‘zbek tili yo‘q</td></tr>
+          <tr><td>JMicroVision (bepul)</td><td>Tasvir tahlili va nuqtali hisob</td><td>Avtomatik tavsif, dalil modeli va geokimyo yo‘q</td></tr>
+          <tr><td>ioGAS (tijoriy)</td><td>Katta geokimyoviy ma’lumotlarni tahlil qilish</td><td>Pullik litsenziya; petrografiya yo‘q</td></tr>
+          <tr><td>Jadval dasturi + qo‘lda hisob</td><td>Hamma joyda mavjud</td><td>Takrorlanmaydi, formulalardagi xato sezilmaydi</td></tr>
+          <tr class="ours"><td><b>Petrolog AI</b></td><td>Shlif, anshlif, silikat va ICP-MS bitta tizimda; har bir xulosada dalil; O‘zbekiston kodeksi; oflayn</td><td>ICP katalogi 33 tadan 13 tasi tayyor; tavsif matni hozircha faqat o‘zbekcha</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="small muted">Taqqoslash 2026-yil oktyabr holatiga, vositalarning ochiq ma’lumotlari asosida.</p>
+  </div>
+</section>
+
+<!-- ================= 2. JAMOA ================= -->
+<section class="block" id="jamoa">
+  <div class="wrap">
+    <span class="req">Topshiriqning 2-bandi</span>
+    <h2>Jamoa</h2>
+    <p class="prose">Loyihani bitta mutaxassis olib boradi. Dasturlash AI vositasi yordamida bajarilgan: metodologiya va bilim bazasini muallif yozadi, kodni AI yozadi, har bir natijani muallif tekshiradi va tasdiqlaydi.</p>
+
+    <div class="people">
+      <article class="person">
+        <h3>Zokir Doniyor o‘g‘li Yo‘ldoshev</h3>
+        <div class="role">Loyiha muallifi va yagona ishtirokchisi</div>
+        <p>Doktorant, H.M. Abdullayev nomidagi Geologiya va geofizika instituti (Toshkent).</p>
+        <p><b>Ko‘nikmalar:</b> petrografiya, mineralogiya, geokimyo; shlif va anshlif tavsifi; O‘zbekiston paleovulkanik jinslari bo‘yicha dala va laboratoriya tadqiqotlari; AI yordamida dasturiy ta’minot ishlab chiqishni boshqarish.</p>
+        <div class="links">
+          <a data-link="email" href="#">Email</a>
+          <a data-link="orcid" href="#">ORCID</a>
+          <a data-link="github" href="#">GitHub</a>
+          <a data-link="telegram" href="#">Telegram</a>
+        </div>
+      </article>
+      <aside class="person tool">
+        <h3>Claude (Anthropic)</h3>
+        <div class="role">AI vositasi, jamoa a’zosi emas</div>
+        <p>Dasturning arxitekturasi, modullari, testlari va interfeysi muallif topshirig‘i bo‘yicha Claude yordamida yozilgan: taxminan 24 000 satr Python kodi va 665 ta avtomatik test.</p>
+        <p>AI ilmiy qaror qabul qilmaydi. Har bir modul metodologiyaning tegishli bo‘limidan boshlanadi, test bilan tekshiriladi va muallif ko‘rigidan o‘tadi.</p>
+      </aside>
+    </div>
+
+    <h3>Rollar</h3>
+    <p class="prose">Odatda bunday loyiha uchun bir necha mutaxassis kerak bo‘ladi. Bu yerda barcha rollarni muallif bajaradi, dasturlash qismida AI vositasidan foydalanadi:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Rol</th><th>Nima qilinadi</th><th>Kim bajaradi</th></tr></thead>
+        <tbody>
+          <tr><td>Ilmiy rahbar, metodolog</td><td>12 bo‘limli metodologiya, dalil modeli, nomlash qoidalari</td><td>Muallif</td></tr>
+          <tr><td>Bilim bazasi muharriri</td><td>Atamalar, mineral jadvallari, kalit qoidalari, 601 etalon namuna — har birida manba</td><td>Muallif</td></tr>
+          <tr><td>Dasturchi</td><td>Arxitektura, hisoblash modullari, interfeys</td><td>Muallif + Claude</td></tr>
+          <tr><td>Sinovchi</td><td>665 ta avtomatik test; natijalarni ekspert sifatida tekshirish</td><td>Muallif + Claude</td></tr>
+          <tr><td>Mahsulot rahbari</td><td>Ustuvorliklar, yo‘l xaritasi, taqdimot</td><td>Muallif</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Foydalanilgan texnologiyalar</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Qatlam</th><th>Texnologiya</th></tr></thead>
+        <tbody>
+          <tr><td>Til va muhit</td><td>Python 3.14</td></tr>
+          <tr><td>Veb-interfeys</td><td>FastAPI, Jinja2, uvicorn</td></tr>
+          <tr><td>Ma’lumotlar bazasi</td><td>SQLite</td></tr>
+          <tr><td>Tasvir tahlili</td><td>OpenCV; Tesseract OCR (masshtab yozuvini o‘qish)</td></tr>
+          <tr><td>Hisoblash</td><td>NumPy, pandas</td></tr>
+          <tr><td>Grafika</td><td>matplotlib</td></tr>
+          <tr><td>Mashinaviy o‘qitish</td><td>NumPy ustida yozilgan tasodifiy o‘rmon va U-Net bashorati; o‘qitish uchun PyTorch (dastur tarkibiga kirmaydi)</td></tr>
+          <tr><td>Eksport</td><td>python-docx (Word), openpyxl (Excel), python-pptx (taqdimot)</td></tr>
+          <tr><td>Ish stoli ilovasi</td><td>PyInstaller, pywebview (WebView2)</td></tr>
+          <tr><td>Sinov</td><td>pytest — 665 ta test</td></tr>
+          <tr><td>AI vositasi</td><td>Claude (Anthropic) — dasturlash jarayoni</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note prose">Mashinaviy o‘qitish qismi ataylab scikit-learn va PyTorch’siz, faqat NumPy ustida yozilgan: shunda dastur yengil qoladi va internetsiz ishlaydi. Tasodifiy o‘rmon natijasi bir xil ma’lumotda scikit-learn bilan solishtirilgan va amalda teng chiqqan.</p>
+
+    <h3>Jamoani kengaytirish rejasi</h3>
+    <p class="prose">Hozirgi bosqichda bitta mutaxassis yetarli bo‘ldi. Ishga tushirish va institutda sinov bosqichida quyidagi rollar qo‘shiladi:</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Rol</th><th>Vazifasi</th><th>Qachon</th></tr></thead>
+        <tbody>
+          <tr><td>Ilmiy maslahatchi (petrograf)</td><td>Bilim bazasini mustaqil tasdiqlash, institutdagi sinovga rahbarlik</td><td>1–2 oy ichida</td></tr>
+          <tr><td>Veb va DevOps muhandisi</td><td>Server, domen, zaxira nusxa va monitoring</td><td>1-bosqich (Launched)</td></tr>
+          <tr><td>3–5 petrograf-sinovchi</td><td>Dasturni real namunalarda mustaqil sinash</td><td>2–4 oy ichida</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. NEGA BIZ ================= -->
+<section class="block" id="nega-biz">
+  <div class="wrap">
+    <span class="req">Topshiriqning 3-bandi</span>
+    <h2>Nima uchun bu muammoni aynan men hal qila olaman</h2>
+    <dl class="principles">
+      <div><dt>Muammo ichkaridan ko‘rilgan</dt><dd>Muallif har kuni shlif tavsiflaydi va vaqt aynan qaysi bosqichda ketishini biladi. Dastur tashqaridan o‘ylab topilmagan.</dd></div>
+      <div><dt>Bilim bazasi manbaga tayanadi</dt><dd>Har bir yozuvda manba bor: Betekhtin, Tröger, QDF3, IMA–CNMNC, Whitney va Evans, O‘zbekiston Petrografik kodeksi. Tashqi manbadan kelgan qiymat «taklif» deb belgilanadi va ekspert ko‘rigini kutadi.</dd></div>
+      <div><dt>Real ma’lumot bor</dt><dd>Institutning O‘zbekiston paleovulkanik jinslari bo‘yicha shlif, anshlif va ICP-MS to‘plami sinov va ilmiy nashr uchun asos bo‘ladi.</dd></div>
+      <div><dt>Mahalliy ehtiyojga mos</dt><dd>O‘zbek tilida ishlaydi va O‘zbekiston Petrografik kodeksini hisobga oladi.</dd></div>
+      <div><dt>Ish allaqachon bajarilgan</dt><dd>Bu g‘oya emas, ishlaydigan dastur: Windows uchun yig‘ilgan ilova, 665 ta test, 601 etalon namuna, 246 mineral yozuvi.</dd></div>
+      <div><dt>Bitta mutaxassis + AI — ishlagan model</dt><dd>Geolog o‘zi dasturlay olmaydi, dasturchi esa petrografiyani bilmaydi — odatda bunday loyiha shu oraliqda to‘xtaydi. Bu yerda soha bilimi va AI vositasi bitta odamda birlashgan: oraliq yo‘q, natija bor.</dd></div>
+      <div><dt>Ochiq ilm yo‘li</dt><dd>Kod AGPL-3.0, bilim bazasi CC BY 4.0 litsenziyasida ochiladi. Earth Science Informatics (Springer) jurnali uchun maqola tayyorlanmoqda.</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ================= 4. YO‘L XARITASI ================= -->
+<section class="block" id="yol-xaritasi">
+  <div class="wrap">
+    <span class="req">Topshiriqning 4-bandi</span>
+    <h2>Yo‘l xaritasi</h2>
+    <p class="prose">Hozirgi holat: <b>MVP bosqichi yakunlanmoqda</b>. Dastur ishlaydi va sinovdan o‘tgan; ochiq nashr va onlayn versiya keyingi bosqichda.</p>
+    <ol class="road">
+      <li class="done">
+        <span class="dot" aria-hidden="true"></span>
+        <h3>Idea</h3><span class="state">Bajarildi</span>
+        <ul><li>12 bo‘limli metodologiya</li><li>Atamalar, tekshiruv ro‘yxatlari, dalil modeli</li><li>Nomlash va sifat mezonlari</li></ul>
+      </li>
+      <li class="done">
+        <span class="dot" aria-hidden="true"></span>
+        <h3>Prototype</h3><span class="state">Bajarildi</span>
+        <ul><li>Tasvirni fazalarga ajratish (k-means)</li><li>Masshtabni OCR bilan o‘qish</li><li>Modal tarkib hisobi</li></ul>
+      </li>
+      <li class="now">
+        <span class="dot" aria-hidden="true"></span>
+        <h3>MVP</h3><span class="state">Hozirgi bosqich</span>
+        <ul><li>Shlif va anshlif tahlili, matn generatori</li><li>Silikat: TAS, SiO₂–K₂O, A/NK–A/CNK, AFM, CIPW</li><li>ICP-MS: REE, spider, klark, korrelyatsiya</li><li>Word, Excel, PPTX eksporti; .exe ilova</li></ul>
+      </li>
+      <li class="next">
+        <span class="dot" aria-hidden="true"></span>
+        <h3>Launched</h3><span class="state">Keyingi 1–2 oy</span>
+        <ul><li>Ochiq GitHub ombori va Zenodo DOI</li><li>Onlayn versiya va o‘rnatgich</li><li>Institutda 3–5 petrograf bilan sinov</li><li>Ilmiy maqola</li></ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= 5. AMALGA OSHIRISH REJASI ================= -->
+<section class="block" id="reja">
+  <div class="wrap">
+    <span class="req">Topshiriqning 5-bandi</span>
+    <h2>Yechimni amalga oshirish rejasi</h2>
+
+    <h3>Bajarilgan ish: metodologiya bosqichlari bo‘yicha</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>№</th><th>Bosqich</th><th>Holat</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Atamalar va tekshiruv ro‘yxatlari (51 atama; shlif 17, anshlif 12 band)</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>2</td><td>Nikol tasniflagichi: parallel va kesishgan nikolni avtomatik aniqlash</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>3</td><td>Masshtab va nisbiy optik shkalalar</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>4</td><td>Fazalarga ajratish va don darajasidagi kalit</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>5</td><td>Miqdoriy hisob (Delesse, Glagolev–Chayes)</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>6</td><td>Dalil holatlari bilan matn generatori</td><td class="st part">O‘zbekcha tayyor</td></tr>
+          <tr><td>7</td><td>Anshlif: ma’danli minerallar, bosqichlar, assotsiatsiyalar</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>8</td><td>Minerallarni ajratish oynasi va don modeli</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>9</td><td>Silikat moduli (13 koeffitsient, CIPW — 21 normativ mineral)</td><td class="st ok">Tayyor</td></tr>
+          <tr><td>10</td><td>ICP-MS moduli</td><td class="st part">33 tadan 13 tasi</td></tr>
+          <tr><td>11</td><td>Bilim bazasini kengaytirish (Mindat)</td><td class="st part">Import tayyor</td></tr>
+          <tr><td>12</td><td>Nashr va ochiqlik</td><td class="st part">Fayllar tayyor</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Keyingi olti oy</h3>
+    <ol class="phases">
+      <li><h4>Ishga tushirish (Launched)</h4><span class="when">1–2 oy</span><p>Ochiq GitHub ombori, Zenodo DOI, onlayn versiya (server sozlamalari tayyor), Windows o‘rnatgichi. Ilova hajmini 1,1 GB dan taxminan 600 MB ga kamaytirish.</p></li>
+      <li><h4>ICP-MS modulini yakunlash</h4><span class="when">2–4 oy</span><p>Qolgan 20 ta tahlil: ma’danlilik ko‘rsatkichlari, cho‘kindi jinslar va o‘zgarish indekslari, anomaliyalarni koordinatalar bo‘yicha xaritaga chiqarish.</p></li>
+      <li><h4>Segmentatsiya modelini o‘qitish</h4><span class="when">3–5 oy</span><p>Minerallarni ajratish oynasida yetarli yorliq yig‘ilgach, U-Net modeli o‘qitiladi va don chegaralari k-means’dan aniqroq ajratiladi.</p></li>
+      <li><h4>Ko‘p tilli tavsif</h4><span class="when">4–6 oy</span><p>Tavsif matni uchun rus va ingliz shablonlari. Atamalar almashinuv jadvali tarjimadagi struktura/tekstura xatosining oldini oladi.</p></li>
+      <li><h4>API va integratsiya</h4><span class="when">6 oy</span><p>Mavjud FastAPI ilovasi ustida ochiq API: har bir javobda natija, dalil holati, manba va dastur versiyasi. <a href="api/">API rejasi</a>.</p></li>
+    </ol>
+
+    <h3>AI vositalari va yechimlar</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Vosita</th><th>Qayerda</th><th>Nega aynan shu</th></tr></thead>
+        <tbody>
+          <tr><td>Claude (Anthropic)</td><td>Dasturlash</td><td>Metodologiyani mutaxassis yozadi, kodni AI yozadi, natijani mutaxassis tekshiradi</td></tr>
+          <tr><td>k-means klasterlashi</td><td>Tasvirni fazalarga ajratish</td><td>Yengil, izohlanadigan, internetsiz ishlaydi</td></tr>
+          <tr><td>Tasodifiy o‘rmon (NumPy)</td><td>Don bo‘yicha mineral taklifi</td><td>Faqat kalit aniq javob bermaganda, faqat kalit nomzodlari ichidan; ishonch 0,65 dan oshmaydi</td></tr>
+          <tr><td>U-Net (NumPy bashorat)</td><td>Don chegaralari</td><td>O‘qitish alohida, ilova ichida faqat yengil bashorat</td></tr>
+          <tr><td>Tesseract OCR</td><td>Masshtab yozuvi</td><td>Oflayn ishlaydi</td></tr>
+          <tr><td>Ward klasterlashi</td><td>Element guruhlari</td><td>Geokimyoda standart usul</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note prose"><b>Asosiy tamoyil:</b> model ekspert o‘rnini bosmaydi. Model taklifi faqat kalit aniq javob bermaganda ishlatiladi va «talqin» darajasidan yuqori ishonch olmaydi. Yakuniy nom har doim tasdiqlangan bilim bazasiga tayanadi.</p>
+
+    <h3>Hozircha nima yo‘q</h3>
+    <p class="prose">Bor narsani ko‘rsatish bilan birga yo‘q narsani ham ochiq aytamiz:</p>
+    <ul class="plain prose">
+      <li>Onlayn versiya hali serverga qo‘yilmagan — hozir ish stoli ilovasi (.exe) mavjud.</li>
+      <li>Tavsif matni faqat o‘zbek tilida tuziladi.</li>
+      <li>ICP-MS katalogining 33 tahlilidan 13 tasi tayyor.</li>
+      <li>42 ma’danli mineraldan 18 tasi uchun qaytarish qobiliyati qiymatlari hali kiritilmagan.</li>
+      <li>U-Net modeli o‘qitilmagan, hozir k-means ishlatiladi.</li>
+      <li>Institutda petrograflar bilan mustaqil sinov hali o‘tkazilmagan.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= CHATBOT ================= -->
+<section class="block" id="chatbot-blok">
+  <div class="wrap">
+    <span class="req">Qo‘shimcha vazifa: AI-chatbot</span>
+    <h2>Bilim bazasidan so‘rang</h2>
+    <p class="prose">Bu namuna-chatbot Petrolog bilim bazasidagi tekshirilgan savol-javoblar asosida ishlaydi. Har bir javobga manba qo‘yiladi. Mos javob topilmasa, chatbot buni ochiq aytadi va javobni o‘ylab topmaydi — xuddi dasturning o‘zidagi kabi.</p>
+    <div class="chat" id="chatbot">
+      <div class="chat-log" aria-live="polite"></div>
+      <div class="chips"></div>
+      <form class="chat-form">
+        <label for="q" class="skip">Savolingiz</label>
+        <input id="q" type="text" placeholder="Masalan: A/CNK chegaralari qanday?" autocomplete="off">
+        <button class="btn primary" type="submit">Yuborish</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MANBALAR ================= -->
+<section class="block" id="manbalar">
+  <div class="wrap">
+    <h2>Metodologiya manbalari</h2>
+    <div class="refs">
+      <h3>Tasnif va nomlash</h3>
+      <ul>
+        <li>Le Maitre R.W. (ed.) 2002. <i>Igneous Rocks: A Classification and Glossary of Terms</i>. 2nd ed. Cambridge University Press.</li>
+        <li>Streckeisen A. 1976. To each plutonic rock its proper name. <i>Earth-Science Reviews</i> 12: 1–33.</li>
+        <li>Le Bas M.J., Le Maitre R.W., Streckeisen A., Zanettin B. 1986. A chemical classification of volcanic rocks based on the total alkali–silica diagram. <i>Journal of Petrology</i> 27: 745–750.</li>
+        <li>Middlemost E.A.K. 1994. Naming materials in the magma/igneous rock system. <i>Earth-Science Reviews</i> 37: 215–224.</li>
+        <li>Schmid R. 1981. Descriptive nomenclature and classification of pyroclastic deposits and fragments. <i>Geology</i> 9: 41–43.</li>
+        <li>Dunham R.J. 1962. Classification of carbonate rocks according to depositional texture. <i>AAPG Memoir</i> 1: 108–121.</li>
+        <li>Fettes D., Desmons J. (eds) 2007. <i>Metamorphic Rocks: A Classification and Glossary of Terms</i>. Cambridge University Press.</li>
+        <li>O‘zbekiston Respublikasi Petrografik kodeksi. 2024.</li>
+      </ul>
+      <h3>Mineralogiya va mikroskopiya</h3>
+      <ul>
+        <li>Whitney D.L., Evans B.W. 2010. Abbreviations for names of rock-forming minerals. <i>American Mineralogist</i> 95: 185–187.</li>
+        <li>Warr L.N. 2021. IMA–CNMNC approved mineral symbols. <i>Mineralogical Magazine</i> 85: 291–320.</li>
+        <li>Criddle A.J., Stanley C.J. (eds) 1993. <i>Quantitative Data File for Ore Minerals</i>. 3rd ed. Chapman &amp; Hall.</li>
+        <li>Tröger W.E. <i>Optische Bestimmung der gesteinsbildenden Minerale</i>. Teil 1. Schweizerbart.</li>
+        <li>Betekhtin A.G. <i>Kurs mineralogii</i>. Moskva.</li>
+        <li>Delesse A. 1848. Procédé mécanique pour déterminer la composition des roches. <i>Annales des Mines</i> 13: 379–388.</li>
+        <li>Glagolev A.A. 1934. Quantitative analysis with the microscope by the “point” method. <i>Engineering and Mining Journal</i> 135: 399–400.</li>
+        <li>Chayes F. 1956. <i>Petrographic Modal Analysis</i>. Wiley, New York.</li>
+        <li>Van der Plas L., Tobi A.C. 1965. A chart for judging the reliability of point counting results. <i>American Journal of Science</i> 263: 87–90.</li>
+      </ul>
+      <h3>Geokimyo</h3>
+      <ul>
+        <li>Cross W., Iddings J.P., Pirsson L.V., Washington H.S. 1902. A quantitative chemico-mineralogical classification and nomenclature of igneous rocks. <i>Journal of Geology</i> 10: 555–690.</li>
+        <li>Shand S.J. 1943. <i>Eruptive Rocks</i>. Wiley, New York.</li>
+        <li>Chappell B.W., White A.J.R. 1974. Two contrasting granite types. <i>Pacific Geology</i> 8: 173–174.</li>
+        <li>Maniar P.D., Piccoli P.M. 1989. Tectonic discrimination of granitoids. <i>GSA Bulletin</i> 101: 635–643.</li>
+        <li>Irvine T.N., Baragar W.R.A. 1971. A guide to the chemical classification of the common volcanic rocks. <i>Canadian Journal of Earth Sciences</i> 8: 523–548.</li>
+        <li>Peccerillo A., Taylor S.R. 1976. Geochemistry of Eocene calc-alkaline volcanic rocks from the Kastamonu area, northern Turkey. <i>Contributions to Mineralogy and Petrology</i> 58: 63–81.</li>
+        <li>Sun S.-s., McDonough W.F. 1989. Chemical and isotopic systematics of oceanic basalts. <i>Geological Society, London, Special Publications</i> 42: 313–345.</li>
+        <li>Rudnick R.L., Gao S. 2014. Composition of the continental crust. In: <i>Treatise on Geochemistry</i>, 2nd ed., vol. 4. Elsevier.</li>
+        <li>Saet Yu.E., Revich B.A., Yanin E.P. va b. 1990. <i>Geokhimiya okruzhayushchey sredy</i>. Nedra, Moskva.</li>
+      </ul>
+      <h3>Statistika</h3>
+      <ul>
+        <li>Aitchison J. 1986. <i>The Statistical Analysis of Compositional Data</i>. Chapman &amp; Hall.</li>
+        <li>Benjamini Y., Hochberg Y. 1995. Controlling the false discovery rate. <i>Journal of the Royal Statistical Society B</i> 57: 289–300.</li>
+        <li>Ward J.H. 1963. Hierarchical grouping to optimize an objective function. <i>Journal of the American Statistical Association</i> 58: 236–244.</li>
+        <li>Reimann C., Filzmoser P., Garrett R.G. 2005. Background and threshold: critical comparison of methods of determination. <i>Science of the Total Environment</i> 346: 1–16.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap in">
+    <div>
+      <p><b>Petrolog AI</b> — H.M. Abdullayev nomidagi Geologiya va geofizika instituti doktoranti loyihasi.</p>
+      <p>Kod: AGPL-3.0-or-later. Bilim bazasi va hujjatlar: CC BY 4.0.</p>
+    </div>
+    <div>
+      <p>Pitch Day 3.0 uchun tayyorlangan. Yangilangan: <span data-text="updated"></span></p>
+      <p><a href="demo/">Demo</a>&ensp; <a href="api/">API</a>&ensp; <a data-link="repo" href="#">GitHub</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/config.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/chatbot.js"></script>
+</body>
+</html>
