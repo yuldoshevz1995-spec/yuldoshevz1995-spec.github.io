@@ -7,7 +7,7 @@
  */
 window.PETROLOG = {
   // GitHub foydalanuvchi nomingiz, masalan: "zyuldoshev"
-  githubUser: "",
+  githubUser: "yuldoshevz1995-spec",
 
   // Dastur kodi turgan ombor nomi, masalan: "petrolog"
   githubRepo: "petrolog",
