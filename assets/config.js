@@ -10,7 +10,7 @@ window.PETROLOG = {
   githubUser: "yuldoshevz1995-spec",
 
   // Dastur kodi turgan ombor nomi, masalan: "petrolog"
-  githubRepo: "petrolog",
+  githubRepo: "Petrolog-AI",
 
   // YouTube video identifikatori. Havola https://youtu.be/AbCdEf12345 bo‘lsa,
   // bu yerga faqat "AbCdEf12345" yoziladi.
@@ -21,10 +21,10 @@ window.PETROLOG = {
 
   // GitHub Releases'dagi .zip fayl uchun to‘g‘ridan-to‘g‘ri havola.
   // Bo‘sh qolsa, ombordagi Releases sahifasiga havola qo‘yiladi.
-  releaseUrl: "",
+  releaseUrl: "https://github.com/yuldoshevz1995-spec/Petrolog-AI/releases/download/v0.9.0-mvp/Petrolog-AI-v0.9.0-mvp-windows.zip.zip",
 
   // Release fayl hajmi, masalan: "1,1 GB"
-  releaseSize: "~1,1 GB",
+  releaseSize: "ZIP ~410 MB, ochilgandan keyin ~1,1 GB",
 
   // Onlayn (server) versiya havolasi. Hali yo‘q bo‘lsa bo‘sh qoldiring.
   liveUrl: "",
