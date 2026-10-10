@@ -14,10 +14,10 @@ window.PETROLOG = {
 
   // YouTube video identifikatori. Havola https://youtu.be/AbCdEf12345 bo‘lsa,
   // bu yerga faqat "AbCdEf12345" yoziladi.
-  youtubeId: "",
+  youtubeId: "tPpe2wxs2xs",
 
   // Video davomiyligi, masalan: "3:05"
-  videoLength: "",
+  videoLength: "4:07",
 
   // GitHub Releases'dagi .zip fayl uchun to‘g‘ridan-to‘g‘ri havola.
   // Bo‘sh qolsa, ombordagi Releases sahifasiga havola qo‘yiladi.
