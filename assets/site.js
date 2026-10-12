@@ -45,7 +45,7 @@
   var box = document.getElementById("video");
   if (box && c.youtubeId && /^[\w-]{6,20}$/.test(c.youtubeId)) {
     var f = document.createElement("iframe");
-    f.src = "https://www.youtube-nocookie.com/embed/" + c.youtubeId + "?rel=0&mute=1";
+    f.src = "https://www.youtube-nocookie.com/embed/" + c.youtubeId + "?rel=0";
     f.title = "Petrolog AI demo-videosi";
     f.loading = "lazy";
     f.allow = "accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen";
